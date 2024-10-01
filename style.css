@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #daddd8;
+    text-align: center;
+}
+h1{
+    font-size: 96px;
+}
+.cointainer{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,1);
+    font-size: 100px;
+    color: yellow;
+    background-color: #a4161a
+}
+#reset{
+    padding: 16px;
+    font-size: 24px;
+    background-color: #031347;
+    color: white;
+    border-radius: 16px;
+    border: none;
+}
+#message{
+    color: green;
+    font-size: 80px;
+}
